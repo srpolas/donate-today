@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body p,h3{
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+body h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.common-btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: orangered;
+    border: none;
+    color: azure;
+    border-radius: 5px;
+}
+
+/* Banner Section Starts */
+.banner{
+background-image: url(./images/banner2.jpg);
+background-color: grey;
+background-size: cover;
+background-blend-mode: multiply;
+height: 500px;
+text-align: center;
+padding-bottom: 0;
+}
+
+.banner h1{
+    padding-top: 100px;
+    color: aliceblue;
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.banner p{
+    color: aliceblue;
+    padding: 20px 200px;
+}
+
+
+/* Banner Section Ends */
+
+/* Donate Today Section starts  */
+
+.donate-today{
+    text-align: center;
+    margin: 0 200px;
+    padding: 50px 50px;
+}
+ h2{
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.donate-today p{
+    padding: 20px 100px;
+}
+
+.dt-btn{
+
+}
+.dt-btn button{
+    padding: 30px 20px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    background-color:;
+    margin: 35px 5px;
+    border: none;
+}
+
+.dt-btn button:hover{
+    color: red;
+    border: 2px solid red;
+    background-color: #FFEEEE;
+}
+
+.donate-today input{
+    padding: 20px 200px ;
+    font-size: 15px;
+    margin: 21px 0;
+    border: none;
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* Donate Today Section Ends  */
+
+/* our-donate-plan styles starts */
+.our-donate-plan{
+    text-align: center;
+    }
+
+.odp-main{
+    display: flex;
+    gap: 20px;
+    padding: 50px 20px;
+    }
+
+.odp-h2{
+    padding: 10px 10px;
+    }
+
+.odp-main h3{
+        padding: 10px 0;
+    }
+.odp-1{
+    background-color:#EDF5F6 ;
+    padding: 50px 20px;
+    }
+.odp-2{
+background-color: #FFEEEE;
+padding: 50px 20px;
+    }
+.odp-3{
+    background-color: #FFF4D6;
+    padding: 50px 20px;
+    }
+
+
+
+
+/* our-donate-plan styles Ends*/
+
+/* news section starts here  */
+
+.news{
+    margin: 0 100px;
+   
+    
+}
+.news p{
+    padding: 10px 0;
+}
+.news1{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+
+.news img{
+    height: 400px;
+    width: 500px;
+}
+
+.news-text{
+    width: 500px;
+    
+}
+
+
+/* news section Ends here  */
+
+
+/* Get My Updates Section Starts Here */
+
+.get-my-updates{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.get-my-updates p{
+    margin: 10px 200px;
+    padding: 0 100px;
+}
+.gmu{
+    padding: 50px 50px;
+    margin: 20px 200px;
+    background-color: bisque;
+}
+.gmu input, button{
+    padding: 10px 20px;
+}
+
+
+/* Get My Updates Section Ends Here */
+
+/* footer section  */
+footer{
+    background-color: black;
+    text-align: center;
+}
+
+footer h3{
+    color: brown;
+    font-size: 30px;
+    padding: 20px 0;
+}
+footer p{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+
+}
+
+
+
